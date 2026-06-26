@@ -26,6 +26,10 @@ qt_add_executable(SRTForge
 
 target_link_libraries(SRTForge PRIVATE Qt6::Widgets Qt6::Network)
 
+if(WIN32)
+    set_target_properties(SRTForge PROPERTIES WIN32_EXECUTABLE TRUE)
+endif()
+
 if(APPLE)
     set(PROMPTS_OUTPUT_DIR "$<TARGET_BUNDLE_CONTENT_DIR:SRTForge>/Resources/prompts")
 else()
@@ -48,6 +52,14 @@ add_custom_target(copy_prompts ALL
 )
 add_dependencies(copy_prompts SRTForge)
 
+if(EXISTS "${CMAKE_SOURCE_DIR}/tools")
+    add_custom_command(TARGET SRTForge POST_BUILD
+        COMMAND ${CMAKE_COMMAND} -E copy_directory
+            "${CMAKE_SOURCE_DIR}/tools"
+            "$<TARGET_FILE_DIR:SRTForge>/tools"
+    )
+endif()
+
 if(APPLE)
     set_target_properties(SRTForge PROPERTIES
         MACOSX_BUNDLE TRUE
@@ -55,4 +67,13 @@ if(APPLE)
         MACOSX_BUNDLE_GUI_IDENTIFIER "dev.srtforge.app"
         MACOSX_BUNDLE_SHORT_VERSION_STRING "${PROJECT_VERSION}"
     )
+endif()
+
+install(TARGETS SRTForge
+    BUNDLE DESTINATION .
+    RUNTIME DESTINATION .
+)
+install(DIRECTORY prompts DESTINATION .)
+if(EXISTS "${CMAKE_SOURCE_DIR}/tools")
+    install(DIRECTORY tools DESTINATION .)
 endif()

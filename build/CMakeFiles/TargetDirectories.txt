@@ -2,5 +2,9 @@
 /Users/ksj03/Documents/projects/SRTForge/build/CMakeFiles/copy_prompts.dir
 /Users/ksj03/Documents/projects/SRTForge/build/CMakeFiles/edit_cache.dir
 /Users/ksj03/Documents/projects/SRTForge/build/CMakeFiles/rebuild_cache.dir
+/Users/ksj03/Documents/projects/SRTForge/build/CMakeFiles/list_install_components.dir
+/Users/ksj03/Documents/projects/SRTForge/build/CMakeFiles/install.dir
+/Users/ksj03/Documents/projects/SRTForge/build/CMakeFiles/install/local.dir
+/Users/ksj03/Documents/projects/SRTForge/build/CMakeFiles/install/strip.dir
 /Users/ksj03/Documents/projects/SRTForge/build/CMakeFiles/SRTForge_autogen_timestamp_deps.dir
 /Users/ksj03/Documents/projects/SRTForge/build/CMakeFiles/SRTForge_autogen.dir

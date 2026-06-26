@@ -37,6 +37,21 @@ if(NOT DEFINED CMAKE_OBJDUMP)
   set(CMAKE_OBJDUMP "/usr/bin/objdump")
 endif()
 
+if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/." TYPE DIRECTORY FILES "/Users/ksj03/Documents/projects/SRTForge/build/SRTForge.app" USE_SOURCE_PERMISSIONS)
+  if(EXISTS "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/./SRTForge.app/Contents/MacOS/SRTForge" AND
+     NOT IS_SYMLINK "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/./SRTForge.app/Contents/MacOS/SRTForge")
+    execute_process(COMMAND /usr/bin/install_name_tool
+      -delete_rpath "/opt/homebrew/lib"
+      -add_rpath "@executable_path/../Frameworks"
+      "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/./SRTForge.app/Contents/MacOS/SRTForge")
+  endif()
+endif()
+
+if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/." TYPE DIRECTORY FILES "/Users/ksj03/Documents/projects/SRTForge/prompts")
+endif()
+
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
 if(CMAKE_INSTALL_LOCAL_ONLY)
