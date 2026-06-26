@@ -1,0 +1,6 @@
+/Users/ksj03/Documents/projects/SRTForge/build/CMakeFiles/SRTForge.dir
+/Users/ksj03/Documents/projects/SRTForge/build/CMakeFiles/copy_prompts.dir
+/Users/ksj03/Documents/projects/SRTForge/build/CMakeFiles/edit_cache.dir
+/Users/ksj03/Documents/projects/SRTForge/build/CMakeFiles/rebuild_cache.dir
+/Users/ksj03/Documents/projects/SRTForge/build/CMakeFiles/SRTForge_autogen_timestamp_deps.dir
+/Users/ksj03/Documents/projects/SRTForge/build/CMakeFiles/SRTForge_autogen.dir
