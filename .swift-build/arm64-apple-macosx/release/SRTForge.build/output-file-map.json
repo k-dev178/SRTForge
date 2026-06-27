@@ -1,0 +1,37 @@
+{
+  "": {
+    "dependencies": "/Users/ksj03/Documents/projects/SRTForge/.swift-build/arm64-apple-macosx/release/SRTForge.build/SRTForge.d",
+    "object": "/Users/ksj03/Documents/projects/SRTForge/.swift-build/arm64-apple-macosx/release/SRTForge.build/SRTForge.o",
+    "swift-dependencies": "/Users/ksj03/Documents/projects/SRTForge/.swift-build/arm64-apple-macosx/release/SRTForge.build/primary.swiftdeps"
+  },
+  "/Users/ksj03/Documents/projects/SRTForge/Sources/SRTForge/AppModel.swift": {
+    "object": "/Users/ksj03/Documents/projects/SRTForge/.swift-build/arm64-apple-macosx/release/SRTForge.build/AppModel.swift.o",
+    "swiftmodule": "/Users/ksj03/Documents/projects/SRTForge/.swift-build/arm64-apple-macosx/release/SRTForge.build/AppModel~partial.swiftmodule",
+    "swift-dependencies": "/Users/ksj03/Documents/projects/SRTForge/.swift-build/arm64-apple-macosx/release/SRTForge.build/AppModel.swiftdeps",
+    "diagnostics": "/Users/ksj03/Documents/projects/SRTForge/.swift-build/arm64-apple-macosx/release/SRTForge.build/AppModel.dia"
+  },
+  "/Users/ksj03/Documents/projects/SRTForge/Sources/SRTForge/ContentView.swift": {
+    "object": "/Users/ksj03/Documents/projects/SRTForge/.swift-build/arm64-apple-macosx/release/SRTForge.build/ContentView.swift.o",
+    "swiftmodule": "/Users/ksj03/Documents/projects/SRTForge/.swift-build/arm64-apple-macosx/release/SRTForge.build/ContentView~partial.swiftmodule",
+    "swift-dependencies": "/Users/ksj03/Documents/projects/SRTForge/.swift-build/arm64-apple-macosx/release/SRTForge.build/ContentView.swiftdeps",
+    "diagnostics": "/Users/ksj03/Documents/projects/SRTForge/.swift-build/arm64-apple-macosx/release/SRTForge.build/ContentView.dia"
+  },
+  "/Users/ksj03/Documents/projects/SRTForge/Sources/SRTForge/Models.swift": {
+    "object": "/Users/ksj03/Documents/projects/SRTForge/.swift-build/arm64-apple-macosx/release/SRTForge.build/Models.swift.o",
+    "swiftmodule": "/Users/ksj03/Documents/projects/SRTForge/.swift-build/arm64-apple-macosx/release/SRTForge.build/Models~partial.swiftmodule",
+    "swift-dependencies": "/Users/ksj03/Documents/projects/SRTForge/.swift-build/arm64-apple-macosx/release/SRTForge.build/Models.swiftdeps",
+    "diagnostics": "/Users/ksj03/Documents/projects/SRTForge/.swift-build/arm64-apple-macosx/release/SRTForge.build/Models.dia"
+  },
+  "/Users/ksj03/Documents/projects/SRTForge/Sources/SRTForge/ProcessRunner.swift": {
+    "object": "/Users/ksj03/Documents/projects/SRTForge/.swift-build/arm64-apple-macosx/release/SRTForge.build/ProcessRunner.swift.o",
+    "swiftmodule": "/Users/ksj03/Documents/projects/SRTForge/.swift-build/arm64-apple-macosx/release/SRTForge.build/ProcessRunner~partial.swiftmodule",
+    "swift-dependencies": "/Users/ksj03/Documents/projects/SRTForge/.swift-build/arm64-apple-macosx/release/SRTForge.build/ProcessRunner.swiftdeps",
+    "diagnostics": "/Users/ksj03/Documents/projects/SRTForge/.swift-build/arm64-apple-macosx/release/SRTForge.build/ProcessRunner.dia"
+  },
+  "/Users/ksj03/Documents/projects/SRTForge/Sources/SRTForge/SRTForgeApp.swift": {
+    "object": "/Users/ksj03/Documents/projects/SRTForge/.swift-build/arm64-apple-macosx/release/SRTForge.build/SRTForgeApp.swift.o",
+    "swiftmodule": "/Users/ksj03/Documents/projects/SRTForge/.swift-build/arm64-apple-macosx/release/SRTForge.build/SRTForgeApp~partial.swiftmodule",
+    "swift-dependencies": "/Users/ksj03/Documents/projects/SRTForge/.swift-build/arm64-apple-macosx/release/SRTForge.build/SRTForgeApp.swiftdeps",
+    "diagnostics": "/Users/ksj03/Documents/projects/SRTForge/.swift-build/arm64-apple-macosx/release/SRTForge.build/SRTForgeApp.dia"
+  }
+}
